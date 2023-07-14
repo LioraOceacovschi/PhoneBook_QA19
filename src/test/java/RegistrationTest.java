@@ -13,9 +13,10 @@ public class RegistrationTest extends TestBase{
     @Test
     public void registrationPositiveTest(){
         int i = (int)(System.currentTimeMillis()/1000)%3600;
-        User user = new User()
-                .withEmail("abc_" + i + "@def.com")
-                .withPassword("$Abcdef12345");
+        User user = User.builder()
+                .email("abc_" + i + "@def.com")
+                .password("$Abcdef12345")
+                .build();
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(user);
         app.getUser().submitRegistration();
@@ -25,9 +26,10 @@ public class RegistrationTest extends TestBase{
     @Test
     public void registrationNegativeTestWrongPassword(){
         int i = (int)(System.currentTimeMillis()/1000)%3600;
-        User user = new User()
-                .withEmail("abc_" + i + "@def.com")
-                .withPassword("Abcdef12345");
+        User user = User.builder()
+                .email("abc_" + i + "@def.com")
+                .password("Abcdef12345")
+                .build();
        app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(user);
         app.getUser().submitRegistration();
@@ -40,9 +42,10 @@ public class RegistrationTest extends TestBase{
     @Test
     public void registrationNegativeTestWrongEmail(){
         int i = (int)(System.currentTimeMillis()/1000)%3600;
-        User user = new User()
-                .withEmail("abc_" + i + "def.com")
-                .withPassword("$Abcdef12345");
+        User user = User.builder()
+                .email("abc_" + i + "def.com")
+                .password("$Abcdef12345")
+                .build();
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(user);
         app.getUser().submitRegistration();
