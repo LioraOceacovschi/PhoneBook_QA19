@@ -28,7 +28,8 @@ public class RegistrationTest extends TestBase{
        app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(email,password);
         app.getUser().submitRegistration();
-        Assert.assertFalse(app.getUser().isLogged());
+        Assert.assertTrue(app.getUser().isCorrectWrongRegAlertText());
+        Assert.assertTrue(app.getUser().isAlertPresent());
     }
 
     @Test
@@ -39,7 +40,8 @@ public class RegistrationTest extends TestBase{
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(email,password);
         app.getUser().submitRegistration();
-        Assert.assertFalse(app.getUser().isLogged());
+        Assert.assertTrue(app.getUser().isCorrectWrongRegAlertText());
+        Assert.assertTrue(app.getUser().isAlertPresent());
     }
 
 
