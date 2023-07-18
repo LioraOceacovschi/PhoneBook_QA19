@@ -1,0 +1,14 @@
+16:12:29 INFO  TestBase              @@@@@@@@@ START TEST public void RegistrationTest.registrationPositiveTest()   @@@@@@@@@@
+16:12:29 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
+16:12:32 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
+16:12:32 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='LOGIN']
+16:12:32 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='LOGIN']  is found!!!
+16:12:32 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[1]
+16:12:32 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[1]  is found!!!
+16:12:32 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[2]
+16:12:32 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[2]  is found!!!
+16:12:32 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[2]
+16:12:32 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[2]  is found!!!
+16:12:32 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
+16:12:33 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
+16:12:33 INFO  TestBase              ######### FINISHED TEST public void RegistrationTest.registrationPositiveTest()  ##########
