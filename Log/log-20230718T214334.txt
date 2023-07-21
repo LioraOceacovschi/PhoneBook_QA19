@@ -1,0 +1,209 @@
+21:43:37 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:43:37 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
+21:43:41 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
+21:43:41 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='LOGIN']
+21:43:41 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='LOGIN']  is found!!!
+21:43:41 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[1]
+21:43:41 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[1]  is found!!!
+21:43:41 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[2]
+21:43:41 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[2]  is found!!!
+21:43:41 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[1]
+21:43:41 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[1]  is found!!!
+21:43:41 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
+21:43:42 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.='ADD']  is found!!!
+21:43:45 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Name']
+21:43:45 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Name']  is found!!!
+21:43:46 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Last Name']
+21:43:46 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Last Name']  is found!!!
+21:43:46 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Phone']
+21:43:46 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Phone']  is found!!!
+21:43:46 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='email']
+21:43:47 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='email']  is found!!!
+21:43:47 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Address']
+21:43:47 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Address']  is found!!!
+21:43:47 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='description']
+21:43:47 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='description']  is found!!!
+21:43:47 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Save']
+21:43:47 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Save']  is found!!!
+21:43:47 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
+21:43:47 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:43:47 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
+21:43:47 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
+21:43:47 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
+21:43:47 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.='ADD']  is found!!!
+21:43:50 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Name']
+21:43:54 INFO  manager.MyListener  Something went wrong!!!!!
+21:43:54 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Name']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54194}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12bb9211be7ee02206b26f1bf8168f99
+*** Element info: {Using=xpath, value=//input[@placeholder='Name']}
+21:43:54 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Name']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54194}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12bb9211be7ee02206b26f1bf8168f99
+*** Element info: {Using=xpath, value=//input[@placeholder='Name']}
+21:43:55 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-2634.png
+21:43:55 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
+21:43:55 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:43:55 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
+21:43:55 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
+21:43:55 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
+21:43:55 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.='ADD']  is found!!!
+21:43:58 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Name']
+21:43:58 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Name']  is found!!!
+21:43:58 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Last Name']
+21:43:58 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Last Name']  is found!!!
+21:43:58 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Phone']
+21:43:58 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Phone']  is found!!!
+21:43:59 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='email']
+21:43:59 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='email']  is found!!!
+21:43:59 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Address']
+21:43:59 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Address']  is found!!!
+21:44:00 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='description']
+21:44:00 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='description']  is found!!!
+21:44:00 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Save']
+21:44:00 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Save']  is found!!!
+21:44:00 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
+21:44:00 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:44:00 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
+21:44:00 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
+21:44:00 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
+21:44:00 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.='ADD']  is found!!!
+21:44:03 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Name']
+21:44:06 INFO  manager.MyListener  Something went wrong!!!!!
+21:44:06 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Name']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54194}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12bb9211be7ee02206b26f1bf8168f99
+*** Element info: {Using=xpath, value=//input[@placeholder='Name']}
+21:44:06 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Name']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54194}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12bb9211be7ee02206b26f1bf8168f99
+*** Element info: {Using=xpath, value=//input[@placeholder='Name']}
+21:44:07 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-2646.png
+21:44:07 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
+21:44:07 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:44:07 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
+21:44:07 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
+21:44:07 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
+21:44:08 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.='ADD']  is found!!!
+21:44:11 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Name']
+21:44:11 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Name']  is found!!!
+21:44:11 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Last Name']
+21:44:11 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Last Name']  is found!!!
+21:44:11 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Phone']
+21:44:11 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Phone']  is found!!!
+21:44:12 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='email']
+21:44:12 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='email']  is found!!!
+21:44:12 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Address']
+21:44:12 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Address']  is found!!!
+21:44:12 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='description']
+21:44:12 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='description']  is found!!!
+21:44:13 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Save']
+21:44:13 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Save']  is found!!!
+21:44:13 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
+21:44:13 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:44:13 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
+21:44:13 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
+21:44:13 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
+21:44:13 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.='ADD']  is found!!!
+21:44:16 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Name']
+21:44:16 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Name']  is found!!!
+21:44:17 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Last Name']
+21:44:17 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Last Name']  is found!!!
+21:44:17 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Phone']
+21:44:17 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Phone']  is found!!!
+21:44:17 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='email']
+21:44:17 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='email']  is found!!!
+21:44:18 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Address']
+21:44:18 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Address']  is found!!!
+21:44:18 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='description']
+21:44:18 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='description']  is found!!!
+21:44:19 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Save']
+21:44:19 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Save']  is found!!!
+21:44:19 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
+21:44:19 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:44:19 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
+21:44:19 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
+21:44:19 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
+21:44:19 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.='ADD']  is found!!!
+21:44:22 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Name']
+21:44:22 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Name']  is found!!!
+21:44:22 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Last Name']
+21:44:22 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Last Name']  is found!!!
+21:44:23 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Phone']
+21:44:23 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Phone']  is found!!!
+21:44:23 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='email']
+21:44:23 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='email']  is found!!!
+21:44:23 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Address']
+21:44:23 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Address']  is found!!!
+21:44:23 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='description']
+21:44:23 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='description']  is found!!!
+21:44:23 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Save']
+21:44:23 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Save']  is found!!!
+21:44:23 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
+21:44:23 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:44:23 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
+21:44:24 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
+21:44:24 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
+21:44:24 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.='ADD']  is found!!!
+21:44:27 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Name']
+21:44:30 INFO  manager.MyListener  Something went wrong!!!!!
+21:44:30 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Name']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54194}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12bb9211be7ee02206b26f1bf8168f99
+*** Element info: {Using=xpath, value=//input[@placeholder='Name']}
+21:44:30 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Name']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54194}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12bb9211be7ee02206b26f1bf8168f99
+*** Element info: {Using=xpath, value=//input[@placeholder='Name']}
+21:44:30 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-2670.png
+21:44:30 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
+21:44:30 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:44:30 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
+21:44:30 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
+21:44:30 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
+21:44:30 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.='ADD']  is found!!!
+21:44:34 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Name']
+21:44:34 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Name']  is found!!!
+21:44:34 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Last Name']
+21:44:34 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Last Name']  is found!!!
+21:44:34 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Phone']
+21:44:34 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Phone']  is found!!!
+21:44:35 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='email']
+21:44:35 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='email']  is found!!!
+21:44:35 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Address']
+21:44:35 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Address']  is found!!!
+21:44:35 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='description']
+21:44:35 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='description']  is found!!!
+21:44:36 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Save']
+21:44:36 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Save']  is found!!!
+21:44:36 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########

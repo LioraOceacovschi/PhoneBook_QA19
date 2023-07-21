@@ -44,4 +44,9 @@ public class HelperBase {
             e.printStackTrace();
         }
     }
+
+    public String getText(By locator){
+        return  wd.findElement(locator).getText();
+    }
+
 }

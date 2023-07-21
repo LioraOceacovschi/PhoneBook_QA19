@@ -1,0 +1,25 @@
+18:36:47 INFO  TestBase              @@@@@@@@@ START TEST public void RemoveContactTests.removeOneContact()   @@@@@@@@@@
+18:36:47 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
+18:36:50 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
+18:36:50 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='LOGIN']
+18:36:50 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='LOGIN']  is found!!!
+18:36:50 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[1]
+18:36:50 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[1]  is found!!!
+18:36:50 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[2]
+18:36:50 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[2]  is found!!!
+18:36:50 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[1]
+18:36:50 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[1]  is found!!!
+18:36:51 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']
+18:36:53 INFO  manager.MyListener  Element  with locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']  is found!!!
+18:36:53 INFO  manager.HelperContact  Number of contacts before is  16
+18:36:53 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']//h3
+18:36:53 INFO  manager.MyListener  Element  with locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']//h3  is found!!!
+18:36:53 INFO  manager.HelperContact  The deleted phone number is  1234567892553
+18:36:53 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']
+18:36:53 INFO  manager.MyListener  Element  with locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']  is found!!!
+18:36:53 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Remove']
+18:36:53 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Remove']  is found!!!
+18:36:58 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']
+18:36:58 INFO  manager.MyListener  Element  with locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']  is found!!!
+18:36:58 INFO  manager.HelperContact  Number of contacts after is  15
+18:36:58 INFO  TestBase              ######### FINISHED TEST public void RemoveContactTests.removeOneContact()  ##########

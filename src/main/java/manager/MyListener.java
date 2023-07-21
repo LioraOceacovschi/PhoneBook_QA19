@@ -41,5 +41,5 @@ public class MyListener extends AbstractWebDriverEventListener {
         logger.info("This is a link to screenshot with error:  " +link);
 
     }
-    
+
 }

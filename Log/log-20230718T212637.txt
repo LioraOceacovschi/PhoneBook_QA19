@@ -1,0 +1,28 @@
+21:26:40 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:26:40 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
+21:26:43 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
+21:26:43 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='LOGIN']
+21:26:43 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='LOGIN']  is found!!!
+21:26:43 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[1]
+21:26:43 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[1]  is found!!!
+21:26:43 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[2]
+21:26:43 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[2]  is found!!!
+21:26:44 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[1]
+21:26:44 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[1]  is found!!!
+21:26:44 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
+21:26:45 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.='ADD']  is found!!!
+21:26:45 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Name']
+21:26:45 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Name']  is found!!!
+21:26:45 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Last Name']
+21:26:45 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Last Name']  is found!!!
+21:26:45 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Phone']
+21:26:45 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Phone']  is found!!!
+21:26:45 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='email']
+21:26:45 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='email']  is found!!!
+21:26:46 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='Address']
+21:26:46 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='Address']  is found!!!
+21:26:46 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@placeholder='description']
+21:26:46 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='description']  is found!!!
+21:26:46 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Save']
+21:26:46 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Save']  is found!!!
+21:26:46 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########

@@ -32,6 +32,7 @@ public class HelperUser extends HelperBase{
         click(By.xpath("//button[2]"));
     }
     public boolean isLogged(){
+        pause(2000);
         return isElementPresent(By.xpath("//*[text()='Sign Out']"));
     }
 
@@ -61,5 +62,12 @@ public class HelperUser extends HelperBase{
         Alert alert = new WebDriverWait(wd, 10)
                 .until(ExpectedConditions.alertIsPresent());
         return alert.getText().contains("Wrong email or password");
+    }
+
+    public void login(User user){
+        openLoginRegistrationForm();
+        fillLoginRegistrationForm(user);
+        submitLogin();
+
     }
 }
