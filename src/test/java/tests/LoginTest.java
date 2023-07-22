@@ -1,3 +1,5 @@
+package tests;
+
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -6,19 +8,21 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void precondition(){
         if(app.getUser().isLogged()){
             app.getUser().logout();
         }
     }
 
-    @Test
+    @Test(groups = {"smokeGroup","sanityGroup","regressionGroup"})
     public void loginPositiveTest(){
         User user = User.builder()
                 .email("lso@abc.com")
                 .password("$Abcd1234")
                 .build();
+        logger.info("LOGIN TEST STARTS WITH DATA: " + user.getEmail() + " & " + user.getPassword());
+
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(user);
        app.getUser().submitLogin();
@@ -31,6 +35,7 @@ public class LoginTest extends TestBase{
                 .email("lsoabc.com")
                 .password("$Abcd1234")
                 .build();
+        logger.info("LOGIN TEST STARTS WITH DATA: " + user.getEmail() + " & " + user.getPassword());
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(user);
         app.getUser().submitLogin();
@@ -45,6 +50,7 @@ public class LoginTest extends TestBase{
                 .email("lso@abc.com")
                 .password("Abcd1234")
                 .build();
+        logger.info("LOGIN TEST STARTS WITH DATA: " + user.getEmail() + " & " + user.getPassword());
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(user);
         app.getUser().submitLogin();
@@ -56,8 +62,8 @@ public class LoginTest extends TestBase{
 
 
 
-    @AfterMethod
-    public void tearDown() {
+    @AfterMethod(alwaysRun = true)
+    public void postCondition() {
 
     }
 

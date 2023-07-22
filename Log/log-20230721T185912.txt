@@ -1,4 +1,4 @@
-18:59:15 INFO  TestBase              @@@@@@@@@ START TEST public void RemoveContactTests.removeAllContactsTest()   @@@@@@@@@@
+18:59:15 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.RemoveContactTests.removeAllContactsTest()   @@@@@@@@@@
 18:59:15 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 18:59:18 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 18:59:18 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='LOGIN']
@@ -13,8 +13,8 @@
 18:59:22 INFO  manager.MyListener  Element  with locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']  is found!!!
 18:59:22 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']
 18:59:25 INFO  manager.MyListener  Element  with locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']  is found!!!
-18:59:25 INFO  TestBase              ######### FINISHED TEST public void RemoveContactTests.removeAllContactsTest()  ##########
-18:59:25 INFO  TestBase              @@@@@@@@@ START TEST public void RemoveContactTests.removeOneContact()   @@@@@@@@@@
+18:59:25 INFO  tests.TestBase              ######### FINISHED TEST public void tests.RemoveContactTests.removeAllContactsTest()  ##########
+18:59:25 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.RemoveContactTests.removeOneContact()   @@@@@@@@@@
 18:59:25 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 18:59:25 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 18:59:25 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']
@@ -41,4 +41,4 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
 Session ID: e941a1f4e5af427a955421b0d76418b0
 *** Element info: {Using=xpath, value=//div[@class='contact-item_card__2SOIM']//h3}
 18:59:32 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-3571.png
-18:59:32 INFO  TestBase              ######### FINISHED TEST public void RemoveContactTests.removeOneContact()  ##########
+18:59:32 INFO  tests.TestBase              ######### FINISHED TEST public void tests.RemoveContactTests.removeOneContact()  ##########

@@ -1,4 +1,4 @@
-21:27:21 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:27:21 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.AddNewContact.addNewContactPositive()   @@@@@@@@@@
 21:27:21 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 21:27:24 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 21:27:24 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='LOGIN']
@@ -25,4 +25,4 @@
 21:27:27 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='description']  is found!!!
 21:27:27 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Save']
 21:27:27 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Save']  is found!!!
-21:27:27 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
+21:27:27 INFO  tests.TestBase              ######### FINISHED TEST public void tests.AddNewContact.addNewContactPositive()  ##########

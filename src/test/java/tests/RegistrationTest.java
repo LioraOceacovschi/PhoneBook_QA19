@@ -1,22 +1,25 @@
+package tests;
+
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class RegistrationTest extends TestBase{
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void precondition(){
         if(app.getUser().isLogged()){
             app.getUser().logout();
         }
     }
-    @Test
+    @Test(groups = {"sanityGroup","regressionGroup"})
     public void registrationPositiveTest(){
         int i = (int)(System.currentTimeMillis()/1000)%3600;
         User user = User.builder()
                 .email("abc_" + i + "@def.com")
                 .password("$Abcdef12345")
                 .build();
+        logger.info("REGISTRATION TEST STARTS WITH DATA: " + user.getEmail() + " & " + user.getPassword());
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(user);
         app.getUser().submitRegistration();
@@ -30,6 +33,7 @@ public class RegistrationTest extends TestBase{
                 .email("abc_" + i + "@def.com")
                 .password("Abcdef12345")
                 .build();
+        logger.info("REGISTRATION TEST STARTS WITH DATA: " + user.getEmail() + " & " + user.getPassword());
        app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(user);
         app.getUser().submitRegistration();
@@ -46,6 +50,7 @@ public class RegistrationTest extends TestBase{
                 .email("abc_" + i + "def.com")
                 .password("$Abcdef12345")
                 .build();
+        logger.info("REGISTRATION TEST STARTS WITH DATA: " + user.getEmail() + " & " + user.getPassword());
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(user);
         app.getUser().submitRegistration();

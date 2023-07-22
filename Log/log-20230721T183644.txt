@@ -1,4 +1,4 @@
-18:36:47 INFO  TestBase              @@@@@@@@@ START TEST public void RemoveContactTests.removeOneContact()   @@@@@@@@@@
+18:36:47 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.RemoveContactTests.removeOneContact()   @@@@@@@@@@
 18:36:47 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 18:36:50 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 18:36:50 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='LOGIN']
@@ -22,4 +22,4 @@
 18:36:58 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']
 18:36:58 INFO  manager.MyListener  Element  with locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']  is found!!!
 18:36:58 INFO  manager.HelperContact  Number of contacts after is  15
-18:36:58 INFO  TestBase              ######### FINISHED TEST public void RemoveContactTests.removeOneContact()  ##########
+18:36:58 INFO  tests.TestBase              ######### FINISHED TEST public void tests.RemoveContactTests.removeOneContact()  ##########

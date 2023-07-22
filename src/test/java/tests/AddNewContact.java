@@ -1,3 +1,5 @@
+package tests;
+
 import models.Contact;
 import models.User;
 import org.testng.Assert;
@@ -7,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class AddNewContact extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         User user = User.builder()
                 .email("lso@abc.com")
@@ -19,7 +21,7 @@ public class AddNewContact extends TestBase {
         }
     }
 
-    @Test
+    @Test(groups = {"sanityGroup"})
     public void addNewContactPositive() {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
         Contact contact = Contact.builder()
@@ -40,7 +42,7 @@ public class AddNewContact extends TestBase {
     }
 
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postCondition() {
 
     }

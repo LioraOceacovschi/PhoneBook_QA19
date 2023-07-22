@@ -1,4 +1,4 @@
-16:36:36 INFO  TestBase              @@@@@@@@@ START TEST public void RegistrationTest.registrationPositiveTest()   @@@@@@@@@@
+16:36:36 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.RegistrationTest.registrationPositiveTest()   @@@@@@@@@@
 16:36:36 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 16:36:39 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 16:36:39 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='LOGIN']
@@ -26,4 +26,4 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
 Session ID: b59955926ef9f9185a53a6f2997f200b
 *** Element info: {Using=xpath, value=//input[0]}
 16:36:43 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-2203.png
-16:36:43 INFO  TestBase              ######### FINISHED TEST public void RegistrationTest.registrationPositiveTest()  ##########
+16:36:43 INFO  tests.TestBase              ######### FINISHED TEST public void tests.RegistrationTest.registrationPositiveTest()  ##########

@@ -1,4 +1,4 @@
-21:42:23 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:42:23 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.AddNewContact.addNewContactPositive()   @@@@@@@@@@
 21:42:23 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 21:42:26 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 21:42:26 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='LOGIN']
@@ -27,8 +27,8 @@
 21:42:29 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='description']  is found!!!
 21:42:30 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Save']
 21:42:30 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Save']  is found!!!
-21:42:30 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
-21:42:30 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:42:30 INFO  tests.TestBase              ######### FINISHED TEST public void tests.AddNewContact.addNewContactPositive()  ##########
+21:42:30 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.AddNewContact.addNewContactPositive()   @@@@@@@@@@
 21:42:30 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 21:42:30 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 21:42:30 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
@@ -55,8 +55,8 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54039}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 0951a50bf95ec1db21b814c14fa945cd
 21:42:31 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-2550.png
-21:42:31 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
-21:42:31 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:42:31 INFO  tests.TestBase              ######### FINISHED TEST public void tests.AddNewContact.addNewContactPositive()  ##########
+21:42:31 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.AddNewContact.addNewContactPositive()   @@@@@@@@@@
 21:42:31 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 21:42:31 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 21:42:31 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
@@ -77,8 +77,8 @@ Session ID: 0951a50bf95ec1db21b814c14fa945cd
 21:42:32 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='description']  is found!!!
 21:42:33 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Save']
 21:42:33 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Save']  is found!!!
-21:42:33 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
-21:42:33 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:42:33 INFO  tests.TestBase              ######### FINISHED TEST public void tests.AddNewContact.addNewContactPositive()  ##########
+21:42:33 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.AddNewContact.addNewContactPositive()   @@@@@@@@@@
 21:42:33 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 21:42:33 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 21:42:33 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
@@ -103,8 +103,8 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54039}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 0951a50bf95ec1db21b814c14fa945cd
 21:42:33 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-2553.png
-21:42:33 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
-21:42:33 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:42:33 INFO  tests.TestBase              ######### FINISHED TEST public void tests.AddNewContact.addNewContactPositive()  ##########
+21:42:33 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.AddNewContact.addNewContactPositive()   @@@@@@@@@@
 21:42:33 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 21:42:33 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 21:42:33 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
@@ -125,8 +125,8 @@ Session ID: 0951a50bf95ec1db21b814c14fa945cd
 21:42:35 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='description']  is found!!!
 21:42:36 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Save']
 21:42:36 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Save']  is found!!!
-21:42:36 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
-21:42:36 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:42:36 INFO  tests.TestBase              ######### FINISHED TEST public void tests.AddNewContact.addNewContactPositive()  ##########
+21:42:36 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.AddNewContact.addNewContactPositive()   @@@@@@@@@@
 21:42:36 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 21:42:36 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 21:42:36 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
@@ -151,8 +151,8 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54039}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 0951a50bf95ec1db21b814c14fa945cd
 21:42:37 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-2556.png
-21:42:37 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
-21:42:37 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:42:37 INFO  tests.TestBase              ######### FINISHED TEST public void tests.AddNewContact.addNewContactPositive()  ##########
+21:42:37 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.AddNewContact.addNewContactPositive()   @@@@@@@@@@
 21:42:37 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 21:42:37 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 21:42:37 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
@@ -173,8 +173,8 @@ Session ID: 0951a50bf95ec1db21b814c14fa945cd
 21:42:38 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='description']  is found!!!
 21:42:38 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Save']
 21:42:38 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Save']  is found!!!
-21:42:38 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
-21:42:38 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:42:38 INFO  tests.TestBase              ######### FINISHED TEST public void tests.AddNewContact.addNewContactPositive()  ##########
+21:42:38 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.AddNewContact.addNewContactPositive()   @@@@@@@@@@
 21:42:38 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 21:42:38 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 21:42:38 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
@@ -199,8 +199,8 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54039}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 0951a50bf95ec1db21b814c14fa945cd
 21:42:40 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-2559.png
-21:42:40 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
-21:42:40 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+21:42:40 INFO  tests.TestBase              ######### FINISHED TEST public void tests.AddNewContact.addNewContactPositive()  ##########
+21:42:40 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.AddNewContact.addNewContactPositive()   @@@@@@@@@@
 21:42:40 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 21:42:40 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 21:42:40 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
@@ -221,4 +221,4 @@ Session ID: 0951a50bf95ec1db21b814c14fa945cd
 21:42:42 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@placeholder='description']  is found!!!
 21:42:42 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Save']
 21:42:42 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Save']  is found!!!
-21:42:42 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
+21:42:42 INFO  tests.TestBase              ######### FINISHED TEST public void tests.AddNewContact.addNewContactPositive()  ##########

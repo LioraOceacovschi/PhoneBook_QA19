@@ -1,4 +1,4 @@
-19:09:08 INFO  TestBase              @@@@@@@@@ START TEST public void RemoveContactTests.removeAllContactsTest()   @@@@@@@@@@
+19:09:08 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.RemoveContactTests.removeAllContactsTest()   @@@@@@@@@@
 19:09:08 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 19:09:11 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 19:09:11 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='LOGIN']
@@ -28,8 +28,8 @@
 19:09:24 INFO  manager.MyListener  Element  with locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']  is found!!!
 19:09:24 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']
 19:09:27 INFO  manager.MyListener  Element  with locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']  is found!!!
-19:09:27 INFO  TestBase              ######### FINISHED TEST public void RemoveContactTests.removeAllContactsTest()  ##########
-19:09:27 INFO  TestBase              @@@@@@@@@ START TEST public void RemoveContactTests.removeOneContact()   @@@@@@@@@@
+19:09:27 INFO  tests.TestBase              ######### FINISHED TEST public void tests.RemoveContactTests.removeAllContactsTest()  ##########
+19:09:27 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.RemoveContactTests.removeOneContact()   @@@@@@@@@@
 19:09:27 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 19:09:27 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 19:09:27 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']
@@ -65,4 +65,4 @@
 19:09:41 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']
 19:09:44 INFO  manager.MyListener  Element  with locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']  is found!!!
 19:09:44 INFO  manager.HelperContact  Number of contacts after is  0
-19:09:44 INFO  TestBase              ######### FINISHED TEST public void RemoveContactTests.removeOneContact()  ##########
+19:09:44 INFO  tests.TestBase              ######### FINISHED TEST public void tests.RemoveContactTests.removeOneContact()  ##########

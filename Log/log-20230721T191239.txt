@@ -1,4 +1,4 @@
-19:12:41 INFO  TestBase              @@@@@@@@@ START TEST public void AddNewContact.addNewContactPositive()   @@@@@@@@@@
+19:12:41 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.AddNewContact.addNewContactPositive()   @@@@@@@@@@
 19:12:43 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 19:12:46 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 19:12:46 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='LOGIN']
@@ -9,7 +9,7 @@
 19:12:47 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[2]  is found!!!
 19:12:47 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[1]
 19:12:47 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[1]  is found!!!
-19:12:47 INFO  TestBase   addNewContactPositive() test starts with data : 123456789767
+19:12:47 INFO  tests.TestBase   addNewContactPositive() test starts with data : 123456789767
 19:12:47 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
 19:12:48 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.='ADD']  is found!!!
 19:12:48 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.='ADD']
@@ -30,8 +30,8 @@
 19:12:52 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Save']  is found!!!
 19:12:52 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //div[@class='contact-item_card__2SOIM'][last()]/h3[.='123456789767']
 19:12:52 INFO  manager.MyListener  Element  with locator -->   By.xpath: //div[@class='contact-item_card__2SOIM'][last()]/h3[.='123456789767']  is found!!!
-19:12:52 INFO  TestBase              ######### FINISHED TEST public void AddNewContact.addNewContactPositive()  ##########
-19:12:52 INFO  TestBase              @@@@@@@@@ START TEST public void LoginTest.loginNegativeTestWrongEmail()   @@@@@@@@@@
+19:12:52 INFO  tests.TestBase              ######### FINISHED TEST public void tests.AddNewContact.addNewContactPositive()  ##########
+19:12:52 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.LoginTest.loginNegativeTestWrongEmail()   @@@@@@@@@@
 19:12:54 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 19:12:54 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 19:12:54 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
@@ -46,8 +46,8 @@
 19:12:55 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[1]  is found!!!
 19:12:57 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 19:13:00 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
-19:13:00 INFO  TestBase              ######### FINISHED TEST public void LoginTest.loginNegativeTestWrongEmail()  ##########
-19:13:00 INFO  TestBase              @@@@@@@@@ START TEST public void LoginTest.loginNegativeTestWrongPassword()   @@@@@@@@@@
+19:13:00 INFO  tests.TestBase              ######### FINISHED TEST public void tests.LoginTest.loginNegativeTestWrongEmail()  ##########
+19:13:00 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.LoginTest.loginNegativeTestWrongPassword()   @@@@@@@@@@
 19:13:02 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 19:13:05 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 19:13:05 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='LOGIN']
@@ -60,8 +60,8 @@
 19:13:06 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[1]  is found!!!
 19:13:08 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 19:13:11 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
-19:13:11 INFO  TestBase              ######### FINISHED TEST public void LoginTest.loginNegativeTestWrongPassword()  ##########
-19:13:11 INFO  TestBase              @@@@@@@@@ START TEST public void LoginTest.loginPositiveTest()   @@@@@@@@@@
+19:13:11 INFO  tests.TestBase              ######### FINISHED TEST public void tests.LoginTest.loginNegativeTestWrongPassword()  ##########
+19:13:11 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.LoginTest.loginPositiveTest()   @@@@@@@@@@
 19:13:13 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 19:13:16 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 19:13:16 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='LOGIN']
@@ -74,8 +74,8 @@
 19:13:17 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[1]  is found!!!
 19:13:19 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 19:13:19 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
-19:13:19 INFO  TestBase              ######### FINISHED TEST public void LoginTest.loginPositiveTest()  ##########
-19:13:19 INFO  TestBase              @@@@@@@@@ START TEST public void RegistrationTest.registrationNegativeTestWrongEmail()   @@@@@@@@@@
+19:13:19 INFO  tests.TestBase              ######### FINISHED TEST public void tests.LoginTest.loginPositiveTest()  ##########
+19:13:19 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.RegistrationTest.registrationNegativeTestWrongEmail()   @@@@@@@@@@
 19:13:21 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 19:13:21 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 19:13:21 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
@@ -90,8 +90,8 @@
 19:13:21 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[2]  is found!!!
 19:13:24 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 19:13:27 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
-19:13:27 INFO  TestBase              ######### FINISHED TEST public void RegistrationTest.registrationNegativeTestWrongEmail()  ##########
-19:13:27 INFO  TestBase              @@@@@@@@@ START TEST public void RegistrationTest.registrationNegativeTestWrongPassword()   @@@@@@@@@@
+19:13:27 INFO  tests.TestBase              ######### FINISHED TEST public void tests.RegistrationTest.registrationNegativeTestWrongEmail()  ##########
+19:13:27 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.RegistrationTest.registrationNegativeTestWrongPassword()   @@@@@@@@@@
 19:13:29 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 19:13:32 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 19:13:32 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='LOGIN']
@@ -104,8 +104,8 @@
 19:13:32 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[2]  is found!!!
 19:13:35 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 19:13:38 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
-19:13:38 INFO  TestBase              ######### FINISHED TEST public void RegistrationTest.registrationNegativeTestWrongPassword()  ##########
-19:13:38 INFO  TestBase              @@@@@@@@@ START TEST public void RegistrationTest.registrationPositiveTest()   @@@@@@@@@@
+19:13:38 INFO  tests.TestBase              ######### FINISHED TEST public void tests.RegistrationTest.registrationNegativeTestWrongPassword()  ##########
+19:13:38 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.RegistrationTest.registrationPositiveTest()   @@@@@@@@@@
 19:13:40 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 19:13:43 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 19:13:43 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='LOGIN']
@@ -118,16 +118,16 @@
 19:13:43 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[2]  is found!!!
 19:13:45 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 19:13:45 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
-19:13:45 INFO  TestBase              ######### FINISHED TEST public void RegistrationTest.registrationPositiveTest()  ##########
-19:13:45 INFO  TestBase              @@@@@@@@@ START TEST public void RemoveContactTests.removeAllContactsTest()   @@@@@@@@@@
+19:13:45 INFO  tests.TestBase              ######### FINISHED TEST public void tests.RegistrationTest.registrationPositiveTest()  ##########
+19:13:45 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.RemoveContactTests.removeAllContactsTest()   @@@@@@@@@@
 19:13:47 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 19:13:47 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 19:13:47 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']
 19:13:50 INFO  manager.MyListener  Element  with locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']  is found!!!
 19:13:50 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']
 19:13:53 INFO  manager.MyListener  Element  with locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']  is found!!!
-19:13:53 INFO  TestBase              ######### FINISHED TEST public void RemoveContactTests.removeAllContactsTest()  ##########
-19:13:53 INFO  TestBase              @@@@@@@@@ START TEST public void RemoveContactTests.removeOneContact()   @@@@@@@@@@
+19:13:53 INFO  tests.TestBase              ######### FINISHED TEST public void tests.RemoveContactTests.removeAllContactsTest()  ##########
+19:13:53 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.RemoveContactTests.removeOneContact()   @@@@@@@@@@
 19:13:55 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //*[text()='Sign Out']
 19:13:55 INFO  manager.MyListener  Element  with locator -->   By.xpath: //*[text()='Sign Out']  is found!!!
 19:13:55 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']
@@ -163,4 +163,4 @@
 19:14:09 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']
 19:14:12 INFO  manager.MyListener  Element  with locator -->   By.xpath: //div[@class='contact-item_card__2SOIM']  is found!!!
 19:14:12 INFO  manager.HelperContact  Number of contacts after is  0
-19:14:12 INFO  TestBase              ######### FINISHED TEST public void RemoveContactTests.removeOneContact()  ##########
+19:14:12 INFO  tests.TestBase              ######### FINISHED TEST public void tests.RemoveContactTests.removeOneContact()  ##########
