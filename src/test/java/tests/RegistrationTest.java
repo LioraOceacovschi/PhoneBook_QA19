@@ -1,5 +1,6 @@
 package tests;
 
+import manager.ProviderData;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -25,6 +26,15 @@ public class RegistrationTest extends TestBase{
         app.getUser().submitRegistration();
         Assert.assertTrue(app.getUser().isLogged());
     }
+
+//    @Test(dataProvider = "regData_CSV",dataProviderClass = ProviderData.class)
+//    public void registrationPositiveTest(User user){
+//        logger.info("REGISTRATION TEST STARTS WITH DATA: " + user.getEmail() + " & " + user.getPassword());
+//        app.getUser().openLoginRegistrationForm();
+//        app.getUser().fillLoginRegistrationForm(user);
+//        app.getUser().submitRegistration();
+//        Assert.assertTrue(app.getUser().isLogged());
+//    }
 
     @Test
     public void registrationNegativeTestWrongPassword(){
