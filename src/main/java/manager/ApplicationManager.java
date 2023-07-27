@@ -30,7 +30,11 @@ public class ApplicationManager {
     }
 
     public void init() throws IOException {
-        properties.load(new FileReader(new File("src/test/resources/prod_config.properties")));
+        String propName = System.getProperty("config","prod_config");
+
+
+
+        properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties",propName))));
         if(browser.equals(BrowserType.CHROME)) {
             wd = new EventFiringWebDriver(new ChromeDriver());
             logger.info("Testing on Chrome Driver");
@@ -54,6 +58,15 @@ public class ApplicationManager {
     public HelperContact getContact() {
         return contact;
     }
+
+    public String getEmail(){
+       return properties.getProperty("web.email");
+    }
+    public String getPassword(){
+        return properties.getProperty("web.password");
+    }
+
+
 
     public void tearDown() {
         //  wd.quit();

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RegistrationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-07-27T18:33:34" hostname="LAPTOP-QKHLCVKT" time="27.186">
+  <properties/>
+  <testcase name="registrationNegativeTestWrongEmail" classname="tests.RegistrationTest" time="6.828"/>
+  <testcase name="registrationNegativeTestWrongPassword" classname="tests.RegistrationTest" time="7.084"/>
+  <testcase name="registrationPositiveTest" classname="tests.RegistrationTest" time="3.183"/>
+  <system-out><![CDATA[Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!
+Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!
+]]></system-out>
+  <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+]]></system-err>
+</testsuite>

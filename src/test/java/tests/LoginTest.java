@@ -30,6 +30,16 @@ public class LoginTest extends TestBase{
     }
 
     @Test
+    public void loginPositiveTestProperties(){
+        logger.info("LOGIN TEST STARTS WITH DATA: " + app.getEmail() + " & " + app.getPassword());
+
+        app.getUser().openLoginRegistrationForm();
+        app.getUser().fillLoginRegistrationForm(app.getEmail(), app.getPassword());
+       app.getUser().submitLogin();
+        Assert.assertTrue(app.getUser().isLogged());
+    }
+
+    @Test
     public void loginNegativeTestWrongEmail() {
         User user = User.builder()
                 .email("lsoabc.com")

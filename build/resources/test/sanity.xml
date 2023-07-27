@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="ProductionSanityGroups" verbose="1" >
+    <groups>
+        <run>
+            <include name="sanityGroup"/>
+        </run>
+    </groups>
+    <test name="Sanity">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.RegistrationTest"/>
+            <class name="tests.AddNewContact"/>
+        </classes>
+    </test>
+    
+</suite>

@@ -29,6 +29,12 @@ test {
 
 task smokeTest(type: Test) {
     useTestNG() {
+        if(project.hasProperty('config')){
+            systemProperty 'config',"${config}"
+        }
+
+
+
         def groups = System.getProperty('groups')
         if(groups!=null){
             includeGroups groups
@@ -47,5 +53,24 @@ task smokeTest(type: Test) {
     }
     if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
+    }
+}
+
+task test_props(type: Test){
+
+    useTestNG(){
+        if(project.hasProperty('config')){
+            systemProperty 'config',"${config}"
+        }
+        def groups = System.getProperty('groups')
+        if(groups!=null){
+            includeGroups groups
+        }
+        def suite = System.getProperty('suite', '')
+        if (suite.equals('login')) {
+            suites 'src/test/resources/login.xml'
+        }else {
+            suites 'src/test/resources/testng.xml'
+        }
     }
 }
